@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             if(counter == 0)
             {
                 ImageView ImageEgg = findViewById(R.id.imageView_egg);
+                ImageEgg.setImageResource(R.drawable.surprise_egg);
             }
         }
 
