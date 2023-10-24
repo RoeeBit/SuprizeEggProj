@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void reset(View view)
     {
-
+        counter = 10;
+        TextView counterTextView = findViewById(R.id.textView4_counter);
+        counterTextView.setText(""+counter);
+        ImageView ImageEgg = findViewById(R.id.imageView_egg);
+        ImageEgg.setImageResource(R.drawable.green_egg);
     }
 }
